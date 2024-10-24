@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color{
+    color:red;
+}
+.activites{
+    margin-top: 100px;
+}
+
+.content{
+    
+    
+    margin: auto;
+    margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color:#1B1C1D ;
+    color: #E0E1E2;
+    text-align: center;
+    padding: 100px;
+  }
+
+  a{
+text-decoration: none;
+  }
