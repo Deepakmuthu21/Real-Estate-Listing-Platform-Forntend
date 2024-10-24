@@ -34,7 +34,7 @@ const Edit_property = () => {
 
     const fetchData = async () => {
         await axios
-          .get(`http://localhost:5000/api/product/getproductbyId/${userId}`)
+          .get(`https://real-estate-listing-platform-backend.onrender.com/api/product/getproductbyId/${userId}`)
           .then((res) => setProducts(res.data.result[0]))
 
           
@@ -55,7 +55,7 @@ const Edit_property = () => {
       };*/
       const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.put(`http://localhost:5000/api/product/update-product/${userId}`,products)
+        await axios.put(`https://real-estate-listing-platform-backend.onrender.com/api/product/update-product/${userId}`,products)
         .then((res) => {toast.success(res.data.messege)})
         .catch((error) => {toast.success(error.data.messege)});
         console.log(products);

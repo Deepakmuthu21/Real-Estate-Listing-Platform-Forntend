@@ -24,7 +24,7 @@ useEffect(() => {
 
   const fetchData = async () => {
     await axios
-      .get(`http://localhost:5000/api/product/getproductdetail/${userid}`)
+      .get(`https://real-estate-listing-platform-backend.onrender.com/api/product/getproductdetail/${userid}`)
       .then((res) => setProducts(res.data.result))
       .catch((err) => console.log(err));
   };
@@ -39,7 +39,7 @@ useEffect(() => {
  }
 
 const handleDelete = async (id)=>{
-  await axios.delete(`http://localhost:5000/api/product/delete-product/${id}`)
+  await axios.delete(`https://real-estate-listing-platform-backend.onrender.com/api/product/delete-product/${id}`)
   .then((res)=>{toast.success(res.data.messege)},
   window.location.reload(true)
 )

@@ -66,7 +66,7 @@ const Create_property = () => {
     };
 
     await axios
-      .post("http://localhost:5000/api/product/register-product", payload)
+      .post("https://real-estate-listing-platform-backend.onrender.com/api/product/register-product", payload)
       .then((res) => toast.success(res.data.messege), navigate("/dashboard"))
       .catch((error) => {
         console.log(error);

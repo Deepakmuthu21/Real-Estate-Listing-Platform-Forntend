@@ -19,7 +19,7 @@ const User = ({ token }) => {
 
   const fetchData = async () => {
     await axios
-      .get(`http://localhost:5000/api/user/getuser`, {
+      .get(`https://real-estate-listing-platform-backend.onrender.com/api/user/getuser`, {
         headers: { Authorization: userToken },
       })
 

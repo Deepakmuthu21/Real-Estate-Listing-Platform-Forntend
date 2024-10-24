@@ -25,7 +25,7 @@ const Home = ({email}) => {
   
   const fetchData = async () => {
     await axios
-      .get("http://localhost:5000/api/product/get-product")
+      .get("https://real-estate-listing-platform-backend.onrender.com/api/product/get-product")
       .then((res) => setProducts(res.data.result))
       .catch((err) => console.log(err));
   };

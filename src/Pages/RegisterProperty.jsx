@@ -26,7 +26,7 @@ const RegisterProperty = () => {
     const handleSubmit= async(e)=>{
         e.preventDefault();
        
-            const response=await axios.post("http://localhost:5000/api/product/register-Proprety",{date,number,location,buyer,id})
+            const response=await axios.post("https://real-estate-listing-platform-backend.onrender.com/api/product/register-Proprety",{date,number,location,buyer,id})
             .then((res) =>toast.success(res.data.message)
         )
    .catch((error) => {

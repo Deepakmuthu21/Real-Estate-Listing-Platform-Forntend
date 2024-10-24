@@ -15,7 +15,7 @@ const ViweProduct = () => {
 
     const fetchData = async () => {
         await axios
-          .get(`http://localhost:5000/api/product/getproductbyId/${id}`)
+          .get(`https://real-estate-listing-platform-backend.onrender.com/api/product/getproductbyId/${id}`)
           .then((res) => setProduct(res.data.result[0]))
 
           
