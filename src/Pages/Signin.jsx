@@ -74,9 +74,9 @@ console.log(error);
         <div className="flex-1">
         <div className="font-bold text-4xl">
           <span className="px-2 py-1 bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 rounded-lg text-white ">
-            Real
+            Haven
           </span>
-          Estate!
+          Land!
         </div>
         <p className="text-sm mt-6">
           You can signin with your Email and password **This is the Demo Project
