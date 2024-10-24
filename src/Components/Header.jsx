@@ -25,7 +25,7 @@ const Header = ({ email }) => {
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold"
       >
         <span className="px-2 py-1 bg-gradient-to-r from-violet-500 via-fuchsia-500 to-pink-500 rounded-lg text-white ">
-          Haven
+          HHaven
         </span>
         Land!
       </Link>
