@@ -106,7 +106,7 @@ setTimeout(() =>{navigate('/signin')},2000)
                         <p className='m-4'>
                         <label >Email  <span className='color' >*</span></label>
                         <br />
-                        <Field type="email" name="email" placeholder="Ex: Abcd@1234" />
+                        <Field type="email" name="email"  />
                         <ErrorMessage name='email' component='h6' className='color'/>
                         </p>
                     </div>
@@ -114,7 +114,7 @@ setTimeout(() =>{navigate('/signin')},2000)
                         <p className='m-4'>
                         <label >Password  <span className='color' >*</span></label>
                         <br />
-                        <Field type="password" name="password" />
+                        <Field type="password" name="password" placeholder="Ex: Abcd@1234" />
                         <ErrorMessage name='password' component='h6' className='color'/>
                         </p>
                     </div>
