@@ -22,7 +22,7 @@ const SignUp = () => {
     const validationSchema= Yup.object().shape({
       name:Yup.string().required('Name Should Not be empty'),
       email:Yup.string().matches(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,'invalid email').required('Email Should Not be empty'),
-      password:Yup.string().matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,'weak password').required('Password Should Not be empty'),
+      password:Yup.string().matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,'weak password').required('Password must contains one special character,numbers,mixed cases'),
       username:Yup.string().required('User Name Should Not be empty')
     })
 
