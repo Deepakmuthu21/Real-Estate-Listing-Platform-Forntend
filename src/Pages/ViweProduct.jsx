@@ -43,8 +43,8 @@ const ViweProduct = () => {
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Descripiton :</td>
-      <td>{product.descripition}</td>
+      <td>Descripton :</td>
+      <td>{product.description}</td>
      
     </tr>
     <tr>
