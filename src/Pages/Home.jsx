@@ -43,7 +43,7 @@ const Home = ({email}) => {
     <div>
           <Header/>
 
-      <div className="m-5  row row-cols-1 row-cols-md-3 g-4">
+      <div className="m-5  row row-cols-1 row-cols-md-3 row-cols-sm-2 g-4">
       
       {products.map((element,index)=>{ 
 
