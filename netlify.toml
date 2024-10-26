@@ -1,4 +1,4 @@
-[[redirects]]
-form="/"
+[[redirect]]
+form="/*"
 to="/index.html"
 status=200
