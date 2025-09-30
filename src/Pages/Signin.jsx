@@ -45,7 +45,7 @@ const [msg,setMsg] = useState('')
 
      const payload = {email,password}
     
-    const response =await axios.post("https://real-estate-listing-platform-backend.onrender.com/api/user/login",payload)
+    const response =await axios.post("https://real-estate-listing-platform-backend-1.onrender.com/api/user/login",payload)
      .then((res) =>{toast.success(res.data.messege)
       localStorage.setItem("token",res.data.token)
       localStorage.setItem("mail",email)

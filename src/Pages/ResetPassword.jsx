@@ -37,7 +37,7 @@ const ResetPassword = () => {
   
        const payload = {password}
       
-     const response =  await axios.post(`https://real-estate-listing-platform-backend.onrender.com/api/user/reset-password/${id}/${token}`,payload)
+     const response =  await axios.post(`https://real-estate-listing-platform-backend-1.onrender.com/api/user/reset-password/${id}/${token}`,payload)
        .then((res) =>toast.success(res.data.status)
        )
   .catch((error) => {

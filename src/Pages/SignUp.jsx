@@ -50,7 +50,7 @@ setFormData({...formData,[e.target.id]: e.target.value.trim()});
 
      const payload = {username,name,email,password}
     
-     await axios.post("https://real-estate-listing-platform-backend.onrender.com/api/user/register-user",payload)
+     await axios.post("https://real-estate-listing-platform-backend-1.onrender.com/api/user/register-user",payload)
      .then((res) =>toast.success(res.data.messege)
      )
 .catch((error) => {
