@@ -34,7 +34,7 @@ const Edit_property = () => {
 
     const fetchData = async () => {
         await axios
-          .get(`https://real-estate-listing-platform-backend.onrender.com/api/product/getproductbyId/${userId}`)
+          .get(`https://real-estate-listing-platform-backend-1.onrender.com/api/product/getproductbyId/${userId}`)
           .then((res) => setProducts(res.data.result[0]))
 
           
